@@ -15,7 +15,7 @@ public class AccountId : ValueObject
     }
 
     public static AccountId Create() => new(Guid.NewGuid());
-    public static AccountId Create(Guid value) => new(value);
+    public static AccountId From(Guid value) => new(value);
 
     protected override IEnumerable<object> GetAtomicValues()
     {
