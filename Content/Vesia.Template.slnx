@@ -1,5 +1,5 @@
 <Solution>
-  <Folder Name="/Solution Data/">
+  <Folder Name="/solution Data/">
     <File Path="..\Vesia.Foundation.nuspec" />
   </Folder>
   <Folder Name="/src/">
